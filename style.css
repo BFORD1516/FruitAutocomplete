@@ -1,0 +1,42 @@
+.search-container {
+  position: relative;
+  width: 300px;
+  margin: 40px auto;
+}
+
+#fruit {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.suggestions {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: linear-gradient(yellow, red);
+  border: 1px solid #ccc;
+  border-top: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+}
+
+.suggestions li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.suggestions li:hover {
+  background-color: #08f5f5;
+}
+
+body {
+  font-family: sans-serif;
+  background: linear-gradient(to right, #81d8d0, #ff0094);
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
